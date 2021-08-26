@@ -170,7 +170,7 @@ nav ul {
     background-size: cover;
     &:hover {
       transform: scale(1.1);
-      transition: all 0.75s;
+      transition: all 0.75s ease-in-out;
       filter: sepia(1);
     }
 }
