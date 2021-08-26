@@ -362,9 +362,7 @@ textarea {
 
 .boton{
   background: $color3;
-  border: 0;
   text-transform: uppercase;
-  padding: 1em;
   &:hover,
    :focus {
     background: #0e8a8a;
@@ -391,6 +389,7 @@ i {
   transform: scale(1.5);
 }
 }
+
 
 @media only screen and (min-width: 768px) {
   .recuadro {
