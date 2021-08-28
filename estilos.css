@@ -201,8 +201,8 @@ nav ul {
 .contendorf__foto:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-transition: all 0.75s;
-  transition: all 0.75s;
+  -webkit-transition: all 0.75s ease-in-out;
+  transition: all 0.75s ease-in-out;
   -webkit-filter: sepia(1);
           filter: sepia(1);
 }
@@ -318,7 +318,6 @@ nav ul {
 }
 
 .redes__enlaces {
-  color: #055052;
   padding: 10px;
   font-size: 20px;
   text-transform: uppercase;
@@ -327,7 +326,6 @@ nav ul {
 }
 
 .redes__enlaces:hover {
-  background-color: #055052;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -423,17 +421,16 @@ textarea {
 
 .boton {
   background: #055052;
-  border: 0;
   text-transform: uppercase;
-  padding: 1em;
+  margin-bottom: 15px;
 }
 
 .boton:hover,
 .boton :focus {
   background: #0e8a8a;
   color: #fff;
-  -webkit-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;
+  -webkit-transition: 1s ease-out;
+  transition: 1s ease-out;
   outline: 0;
 }
 
@@ -443,6 +440,14 @@ footer {
   margin-top: 10px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
+  color: white;
+}
+
+.enlcinf {
+  color: white;
+}
+
+.enlcinf:hover {
   color: white;
 }
 

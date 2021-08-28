@@ -150,7 +150,7 @@ nav ul {
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 0;
-  text-shadow: 0.1em 0.1em 0.4em black;
+  text-shadow: 0.1em 0.1em 0.3em black;
 }
 
 .contendorf{
@@ -274,14 +274,12 @@ nav ul {
   border: 2px solid $color3;
   transition: all 0.3s;
   &__enlaces {
-    color: $color3;
     padding: 10px;
     font-size: 20px;
     text-transform: uppercase;
     transition: all 0.3s;
 
     &:hover {
-      background-color: $color3;
       transition: all 0.3s;
     }
   }
@@ -368,7 +366,7 @@ textarea {
    :focus {
     background: #0e8a8a;
     color: #fff;
-    transition: background-color 1s ease-out;
+    transition: 1s ease-out;
     outline: 0;
   }
 }
@@ -382,6 +380,14 @@ footer {
   text-align: center;
   color: white;
 }
+
+.enlcinf{
+  color: white;
+  &:hover{
+    color: white;
+  }
+} 
+
 i {
   font-size: 20px;
   margin: 10px;
