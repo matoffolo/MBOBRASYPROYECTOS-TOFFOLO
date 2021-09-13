@@ -483,7 +483,8 @@ i {
     }
     .contact-wrapper {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        justify-items: center;
+        width: 100%;
     }
 
 }

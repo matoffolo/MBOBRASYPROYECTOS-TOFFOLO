@@ -563,8 +563,8 @@ i:hover {
   .contact-wrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 2fr 1fr;
-        grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    width: 100%;
   }
 }
 
